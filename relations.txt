@@ -1,0 +1,18 @@
+*Relações de classes*
+
+1.Tabuleiro e Jogador:
+A classe Tabuleiro e Jogador é uma Agregação, pois a classe Jogador se 
+utiliza da função "marcar_casa" para efetuar a jogada. Mas não criando nenhuma 
+dependêcia entre as classes.
+
+2.Jogador e Jogador Humano:
+A classe Jogador e JogadorHumano tem uma relação de Herança simples, pois ela
+herda o __init__ da classe Jogador.
+
+3.Jogador e Jogador Computador:
+A classe Jogador e JogadorComputador tem uma relação de Herança simples, pois ela
+herda o __init__ da classe Jogador.
+
+4.JogadorComputador, JogadorHumano, Tabuleiro - Jogodavelha:
+A relação entre as classes é de Agregação, pois a demais classes não estão sendo
+instânciadas pela classe Jogodavelha.
